@@ -480,12 +480,12 @@ s.reverse() | reverses the items of s in place	(4)
     AAATATATTTATATGATAGATGATGATTTTTC  
     >Name_3_right  
     AAATATATTTATATGATAGATGATGATTTTT  
-3. Перевести fastq формат в fasta формат. Проделать обратную процедуру приписав качество *.
-    Input file in fastq format:
-    @Name_1
-    ATACATCGTACGTTGATCGATG
-    +
-    !!*CCC%%%%!%%%%!!679CCC
+3. Перевести fastq формат в fasta формат. Проделать обратную процедуру приписав качество *.  
+    Input file in fastq format:  
+    @Name_1  
+    ATACATCGTACGTTGATCGATG  
+    +  
+    !!*CCC%%%%!%%%%!!679CCC  
 
 4. Скачать координаты транскриптов (версия генома hg38, описание [таблицы](https://genome.ucsc.edu/cgi-bin/hgTables), ссылка заархивированного [файла](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/knownGene.txt.gz). Объединить пересекающиеся координаты транскриптов с учетом стренда и названия хромосом.  
     Example of input file:  
