@@ -74,6 +74,7 @@
     ABL  
     NANOG  
     AKT2  
+    
 6. Посчитать количество уникальных генов в списке  
     List of input file:  
     ABL  
@@ -89,42 +90,12 @@
     NANOG  
   
     List of output file:  
-    ABL           1  
-    AKT1         2  
-    AKT2         2  
-    SOX2         2  
-    NANOG    2  
-    EMX2        1  
-    AKT3         1 
-    AKT1  
-    AKT2  
-    SOX2  
-  
-    List2:  
-    AKT3  
-    ABL  
-    NANOG  
-    AKT2  
-6. Посчитать количество уникальных генов в списке  
-    List of input file:  
-    ABL  
-    AKT1  
-    AKT2  
-    SOX2  
-    NANOG  
-    SOX2  
-    AKT2  
-    EMX2  
-    AKT1  
-    AKT3  
-    NANOG  
-  
-    List of output file:  
-    ABL           1  
-    AKT1         2  
-    AKT2         2  
-    SOX2         2  
-    NANOG    2  
-    EMX2        1  
-    AKT3         1 
+    ABL 1  
+    AKT1    2  
+    AKT2    2  
+    SOX2    2  
+    NANOG   2  
+    EMX2    1  
+    AKT3    1 
+    
 # Алгоритмические задачи
