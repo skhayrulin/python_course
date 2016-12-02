@@ -1,34 +1,34 @@
-# Задачи по биоинформатике. Любезно предоставленные Максимом Ри, за что ему и спасибо!
+# Задачи по биоинформатике.
 1. Скачать нуклеотидную последовательность хромосомы Y в fasta формате (версия генома – hg38, ссылка заархивированного [файла](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/chrY.fa.gz)). Посчитать количество нуклеотидов (A, C, G и T) на обратной цепи.
 2. Разбить файл в fasta формате на два файла в fasta формате. Содержание каждого файла соотвествует нуклеотидным последовательностям с именами left или right.
     Input file in fasta format:  
-    >Name_1_left  
+    \>Name_1_left  
     ATACATCGTACGTTGATCGATGCTAGCTAGGGG  
-    >Name_2_right  
+    \>Name_2_right  
     AAATATATTTATATGATAGATGATGATTTTTC  
-    >Name_1_right  
+    \>Name_1_right  
     AAATTATATATTATAGAGGAGCGCGAGA  
-    >Name_3_left  
+    \>Name_3_left  
     ATACATCGTACGTTGATCGATGCTAGCTAGCCCCCCCC  
-    >Name_3_right  
+    \>Name_3_right  
     AAATATATTTATATGATAGATGATGATTTTT  
-    >Name_2_left  
+    \>Name_2_left  
     AAATTATATATTATAGAGGAGCG  
 
     Ouput of file 1 in fasta format:  
-    >Name_1_left  
+    \>Name_1_left  
     ATACATCGTACGTTGATCGATGCTAGCTAGGGG  
-    >Name_2_left  
+    \>Name_2_left  
     AAATTATATATTATAGAGGAGCG  
-    >Name_3_left  
+    \>Name_3_left  
     ATACATCGTACGTTGATCGATGCTAGCTAGCCCCCCCC  
   
     Ouput of file 2 in fasta format:  
-    >Name_1_right  
+    \>Name_1_right  
     AAATTATATATTATAGAGGAGCGCGAGA  
-    >Name_2_right  
+    \>Name_2_right  
     AAATATATTTATATGATAGATGATGATTTTTC  
-    >Name_3_right  
+    \>Name_3_right  
     AAATATATTTATATGATAGATGATGATTTTT  
 3. Перевести fastq формат в fasta формат. Проделать обратную процедуру приписав качество \*.  
     Input file in fastq format:  
