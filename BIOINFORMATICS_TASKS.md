@@ -90,7 +90,9 @@
     NANOG - 2  
     EMX2 - 1  
     AKT3 - 1 
-    
+
+7. Даны две последовательности одинакового размера ATGTAAAATATATATTGCGTCGTGAA и AATTAGGGTATATATTGCGTCGTGTT. Вычислить [расстояние Хэмминга](https://en.wikipedia.org/wiki/Hamming_distance)
+
 # Задачи по алгоритмам и структурам данных (биоинформатика)
 
 1. Проанализировать генную сеть (граф) транскрипционных факторов [TF](https://en.wikipedia.org/wiki/Transcription_factor) [E.coli](https://en.wikipedia.org/wiki/Escherichia_coli). Вершины - TF (= ген, считаем одной сущностью); направленное ребро(дуга) - тип взаимодействия (активация, ингибирование и дуальное действие). Список TF и взаимодействий можно найти [здесь](http://regulondb.ccg.unam.mx/menu/download/datasets/files/network_tf_tf.txt) (1 столбец - TF, 2 столбец - гены, которые регулируют TF, 3 столбец - тип взаимодействия). Для упрощения 2 столбец будем считать TF.
