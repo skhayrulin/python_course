@@ -700,32 +700,28 @@ Python предоставляет возмжность разработчику 
     In [42]: try:
         ...:     x = 1/0
         ...: except ZeroDivisionError as e:
-        ...:     print(e)
-        ...:     
+        ...:     print(e)    
     division by zero
     In [45]: try:
-    ...:     x=1/0
-    ...: except ZeroDivisionError as e:
-    ...:     x = 0  
+        ...:     x=1/0
+        ...: except ZeroDivisionError as e:
+        ...:     x = 0  
     In [46]: x
     Out[46]: 0
 Если в Вашем коде возникла недопустимая ситуация, нужно возбудить исключение оператором `raise`.
     
     In [49]: try:
-    ...:     if y == 0:
-    ...:         raise ZeroDivisionError("You're trying divide by zero")
-    ...:     x=1/y
-    ...: except ZeroDivisionError as e:
-    ...:     print(e)   
+        ...:     if y == 0:
+        ...:         raise ZeroDivisionError("You're trying divide by zero")
+        ...:     x=1/y
+        ...: except ZeroDivisionError as e:
+        ...:     print(e)   
     You're trying divide by zero
 В Python имеетсся масса уже встренных исключений таких как `ZeroDivisionError`, `IOError` и так далее полный сипсок можно найи [здесь](https://docs.python.org/3/library/exceptions.html). Тем не мение у вас есть возможность создавать свои собственные типы исключений, так и следует поступать чтобы ваши ошибки не путались с встроенными сиключениями. Для этого необходимо создать ваш тип исключений, которой наследуется от класса встроенного `Exception`:
 
     In [51]: class MyException(Exception):
         ...:     def __str__(self):
         ...:         return "HaHa you're on the wrong way"
-        ...:         
-        ...: 
-
     In [52]: try:
         ...:     raise MyException()
         ...: except MyException as e:
@@ -740,24 +736,22 @@ Python предоставляет возмжность разработчику 
         ...:         raise ZeroDivisionError("Y is equal to 0")
         ...:     return 1/y
     In [63]: class SQRTError(Exception):
-    ...:     def __str__(self):
-    ...:         return "Check you're input case we're not working with complex number"
-    
+        ...:     def __str__(self):
+        ...:         return "Check you're input case we're not working with complex number"
     In [66]: from math import sqrt
-
     In [67]: def my_sqrt(n):
         ...:     if n < 0:
         ...:         raise SQRTError()
         ...:     return sqrt(n)
-     In [72]: try:
-    ...:     f(0)
-    ...:     my_sqrt(-1)
-    ...: except ZeroDivisionError as e:
-    ...:     print(e)
-    ...: except SQRTError as e:
-    ...:     print(e)
-    ...:     
-    ...:     
+    In [72]: try:
+        ...:     f(0)
+        ...:     my_sqrt(-1)
+        ...: except ZeroDivisionError as e:
+        ...:     print(e)
+        ...: except SQRTError as e:
+        ...:     print(e)
+        ...:     
+        ...:     
     Y is equal to 0
 
     In [73]: try:
@@ -766,9 +760,7 @@ Python предоставляет возмжность разработчику 
         ...: except ZeroDivisionError as e:
         ...:     print(e)
         ...: except SQRTError as e:
-        ...:     print(e)
-        ...:     
-        ...:     
+        ...:     print(e)     
     Check you're input case we're not working with complex number
 
 
