@@ -101,6 +101,9 @@
 
 11. Найти все возможные [палиндромы](https://en.m.wikipedia.org/wiki/Palindromic_sequence) в хромосоме Y из 1 задачи. "Не гни папин ген".
 
+12. Найти все возможные длины транскриптов (версия генома hg38, описание [таблицы](https://genome.ucsc.edu/cgi-bin/hgTables), ссылка заархивированного [файла](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/knownGene.txt.gz)) произведение которых дает палиндром. Например,
+
+
 
 # Задачи по алгоритмам и структурам данных (биоинформатика)
 1. Проанализировать генную сеть (граф) транскрипционных факторов [TF](https://en.wikipedia.org/wiki/Transcription_factor) [E.coli](https://en.wikipedia.org/wiki/Escherichia_coli). Вершины - TF (= ген, считаем одной сущностью); направленное ребро(дуга) - тип взаимодействия (активация, ингибирование и дуальное действие). Список TF и взаимодействий можно найти [здесь](http://regulondb.ccg.unam.mx/menu/download/datasets/files/network_tf_tf.txt) (1 столбец - TF, 2 столбец - гены, которые регулируют TF, 3 столбец - тип взаимодействия). Для упрощения 2 столбец будем считать TF.
