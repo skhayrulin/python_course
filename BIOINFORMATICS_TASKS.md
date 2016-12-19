@@ -101,7 +101,7 @@
 
 11. Найти все возможные [палиндромы](https://en.m.wikipedia.org/wiki/Palindromic_sequence) в хромосоме Y из 1 задачи. "Не гни папин ген".
 
-12. Найти все возможные длины транскриптов (версия генома hg38, описание [таблицы](https://genome.ucsc.edu/cgi-bin/hgTables), ссылка заархивированного [файла](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/knownGene.txt.gz)) произведение которых дает палиндром. Например, длина транскрипта uc060pgn.1 (ген MIR4528) равна 91, а длина транскрипта uc064lvv.1 (ген SNORA70) равна 99. 91*99 = 9009.
+12. Найти все возможные длины транскриптов меньше 10000 нуклеотидов (версия генома hg38, описание [таблицы](https://genome.ucsc.edu/cgi-bin/hgTables), ссылка заархивированного [файла](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/knownGene.txt.gz)) являющимися числами [Лишрела](https://en.wikipedia.org/wiki/Lychrel_number). С помощью базы данных [DAVID](https://david.ncifcrf.gov/) сделать [GO](https://en.wikipedia.org/wiki/Gene_ontology) анализ. Какие категории находятся в топе?
 
 
 # Задачи по алгоритмам и структурам данных (биоинформатика)
