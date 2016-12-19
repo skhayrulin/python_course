@@ -102,6 +102,7 @@
 11. Найти все возможные [палиндромы](https://en.m.wikipedia.org/wiki/Palindromic_sequence) в хромосоме Y из 1 задачи. "Не гни папин ген".
 
 12. Найти все возможные длины транскриптов меньше 10000 нуклеотидов (версия генома hg38, описание [таблицы](https://genome.ucsc.edu/cgi-bin/hgTables), ссылка заархивированного [файла](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/knownGene.txt.gz)) являющимися числами [Лишрела](https://en.wikipedia.org/wiki/Lychrel_number). С помощью базы данных [DAVID](https://david.ncifcrf.gov/) сделать [GO](https://en.wikipedia.org/wiki/Gene_ontology) анализ. Какие категории находятся в топе?
+	- сколько [репьюнитов](https://en.wikipedia.org/wiki/Repunit) среди всех длин транскриптов
 
 13. Дана нуклеотидная последовательность в [fasta](https://en.wikipedia.org/wiki/FASTA_format) формате. Разделить на последовательности длиной N нуклеотидов в fasta формате. Значение N подается в качестве аргумента.
 
