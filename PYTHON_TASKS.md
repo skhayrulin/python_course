@@ -16,6 +16,23 @@
 
 [Условные операторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Условные-операторы)
 
+[Циклы Условные операторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы Условные операторы)
+
+[Передача аргументов в функцию](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Передача-аргументов-в-функцию)
+
+[Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
+
+[Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
+
+[Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
+
+[Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
+
+[Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
+
+
+
+
 # Начало работы
 
 Интерпретатор Python после установки располагается, обычно, по пути /usr/local/bin/python3.1 или /usr/local/bin/python2.7. Для проверки наличия интерпритатора в системе можно воспользоваться системной утилитами `whereis` или `which` (это верно  относительно UNIX систем).
