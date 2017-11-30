@@ -1,54 +1,30 @@
 # Оглавление
 
-[Начало работы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Начало-работы)
-
-[Числа](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Числа)
-
-[Возведение числа в степень](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Возведение-числа-в-степень)
-
-[Различные операции](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Различные-операции)
-
-[Ввод/Вывод](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#ВводВывод)
-
-[Переменные](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Переменные)
-
-[Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
-
-[Условные операторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Условные-операторы)
-
-[Циклы Условные операторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы--Условные-операторы)
-
-[Функции](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Функции)
-
-[Области видимости переменных](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Области-видимости-переменных)
-
-[Передача аргументов в функцию](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Передача-аргументов-в-функцию)
-
-[Списки и работа с ними (срезки генераторы)](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Списки-и-работа-с-ними-срезки-генераторы)
-
-[Срезки (Slice)](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Срезки-slice)
-
-[Кортежи](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Кортежи)
-
-[Строки](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Строки)
-
-[Словари](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Словари)
-
-[Задачи по биоинформатике](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Задачи-по-биоинформатике)
-
-[ООП](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#ООП)
-
-[Классы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Классы)
-
-[Наследвование](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Наследование)
-
-[Инкапсуляция](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Инкапсуляция)
-
-[Полиморфизм](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Полиморфизм)
-
-[Исключения](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Исключения)
-
-[Финальное задание](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Финальное-задание)
+- [Начало работы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Начало-работы)
+- [Числа](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Числа)
+- [Возведение числа в степень](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Возведение-числа-в-степень)
+- [Различные операции](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Различные-операции)
+- [Ввод/Вывод](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#ВводВывод)
+- [Переменные](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Переменные)
+- [Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
+- [Условные операторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Условные-операторы)
+- [Циклы Условные операторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы--Условные-операторы)
+- [Функции](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Функции)
+  - [Области видимости переменных](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Области-видимости-переменных)
+  - [Передача аргументов в функцию](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Передача-аргументов-в-функцию)
+- [Списки и работа с ними (срезки генераторы)](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Списки-и-работа-с-ними-срезки-генераторы)
+  - [Срезки (Slice)](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Срезки-slice)
+  - [Кортежи](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Кортежи)
+- [Строки](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Строки)
+- [Словари](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Словари)
+- [Задачи по биоинформатике](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Задачи-по-биоинформатике)
+- [ООП](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#ООП)
+  - [Классы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Классы)
+  - [Наследвование](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Наследование)
+  - [Инкапсуляция](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Инкапсуляция)
+  - [Полиморфизм](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Полиморфизм)
+- [Исключения](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Исключения)
+- [Финальное задание](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Финальное-задание)
 
 
 # Начало работы
