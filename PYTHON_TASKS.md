@@ -42,7 +42,13 @@
 
 [Наследвование](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Наследование)
 
+[Инкапсуляция](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Инкапсуляция)
 
+[Полиморфизм](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Полиморфизм)
+
+[Исключения](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Исключения)
+
+[Финальное задание](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Финальное-задание)
 
 
 # Начало работы
