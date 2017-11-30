@@ -1,13 +1,20 @@
 # Оглавление
 
 [Начало работы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Начало-работы)
+
 [Числа](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Числа)
+
 [Возведение числа в степень](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Возведение-числа-в-степень)
+
 [Различные операции](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Различные-операции)
-[Ввод/Вывод](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Ввод-Вывод)
-[Начало работы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Начало-работы)
-[Начало работы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Начало-работы)
-[Начало работы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Начало-работы)
+
+[Ввод/Вывод](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#ВводВывод)
+
+[Переменные](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Переменные)
+
+[Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
+
+[Условные операторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Условные-операторы)
 
 # Начало работы
 
