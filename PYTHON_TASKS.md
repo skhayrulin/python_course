@@ -20,9 +20,11 @@
 
 [Функции](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Функции)
 
+[Области видимости переменных](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Области-видимости-переменных)
+
 [Передача аргументов в функцию](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Передача-аргументов-в-функцию)
 
-[Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
+[Списки и работа с ними (срезки генераторы)](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Списки-и-работа-с-ними-срезки-генераторы)
 
 [Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
 
@@ -279,7 +281,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 13. Написать функцию XOR_cipher, принимающая 2 аргумента: строку, которую нужно зашифровать, и ключ шифрования,  которая возвращает строку, зашифрованную путем применения функции XOR (^) над символами строки с ключом.    Написать также функцию XOR_uncipher, которая по зашифрованной строке и ключу восстанавливает исходную строку.
 
 
-# Области видимости переменных
+## Области видимости переменных
 
 В Python, переменные, на которые только ссылаются внутри функции, считаются глобальными. Если переменной присваивается новое значение где-либо в теле функции, считается, что она локальная, и, если вам нужно, то нужно явно указывать её глобальной.
 
