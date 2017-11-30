@@ -1,6 +1,13 @@
 # Оглавление
 
-[Начало работы]()
+[Начало работы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Начало-работы)
+[Числа](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Числа)
+[Возведение числа в степень](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Возведение-числа-в-степень)
+[Различные операции](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Различные-операции)
+[Ввод/Вывод](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Ввод-Вывод)
+[Начало работы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Начало-работы)
+[Начало работы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Начало-работы)
+[Начало работы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Начало-работы)
 
 # Начало работы
 
