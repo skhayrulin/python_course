@@ -26,13 +26,21 @@
 
 [Списки и работа с ними (срезки генераторы)](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Списки-и-работа-с-ними-срезки-генераторы)
 
-[Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
+[Срезки (Slice)](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Срезки-slice)
 
-[Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
+[Кортежи](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Кортежи)
 
-[Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
+[Строки](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Строки)
 
-[Циклы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы)
+[Словари](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Словари)
+
+[Задачи по биоинформатике](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Задачи-по-биоинформатике)
+
+[ООП](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#ООП)
+
+[Классы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Классы)
+
+[Наследвование](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Наследование)
 
 
 
@@ -506,7 +514,7 @@ s.reverse() | reverses the items of s in place	(4)
 5. Предположим вы вводите строку, используя стандартную функцию input() посчитайте и вывидете какое колличество разных символов в этой строке
 6. напишите функцию `concatenate(dict1, dict2)`, которая объединяет два словаря и вовращает результат, выведете результат
 
-# Задачи по биоинформатике.
+# Задачи по биоинформатике
 ## Задачи переехали [сюда](https://github.com/skhayrulin/python_course/blob/master/BIOINFORMATICS_TASKS.md)
 
 # ООП
