@@ -16,7 +16,7 @@
 
 [Условные операторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Условные-операторы)
 
-[Циклы Условные операторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы Условные операторы)
+[Циклы Условные операторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Циклы-Условные-операторы)
 
 [Передача аргументов в функцию](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Передача-аргументов-в-функцию)
 
