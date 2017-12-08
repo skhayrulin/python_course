@@ -4,7 +4,7 @@
 	- Вырезать последовательность нуклеотидов с 100000 по 100100 позицию.
 	- Для предыдущего пункта выдать reverse, reverse-complement, complement последовательности. Для проверки можно использовать [сайт](http://www.bioinformatics.org/sms/rev_comp.html).
 	- Определить [GC состав](https://en.wikipedia.org/wiki/GC-content) для последовательностей из предыдущего пункта. Насколько отличается %GC.
-2. Разбить файл в fasta формате на два файла в fasta формате. Содержание каждого файла соотвествует нуклеотидным последовательностям с именами left или right.  
+2. Разбить файл в fasta формате на два файла в fasta формате. Содержание каждого файла соответствует нуклеотидным последовательностям с именами left или right.  
     Input file in fasta format:  
     \>Name_1_left  
     ATACATCGTACGTTGATCGATGCTAGCTAGGGG  
@@ -34,7 +34,7 @@
     AAATATATTTATATGATAGATGATGATTTTTC  
     \>Name_3_right  
     AAATATATTTATATGATAGATGATGATTTTT  
-3. Перевести fastq формат в fasta формат. Проделать обратную процедуру приписав качество \*.  
+3. Перевести fastq формат в fasta формат. Проделать обратную процедуру, приписав качество \*.  
     Input file in fastq format:  
     @Name_1  
     ATACATCGTACGTTGATCGATG  
@@ -95,21 +95,21 @@
 
 8. Даны две последовательности ATGCTAAGCTGATGATGGCGGGATG и ATG. Найти все местоположения второй последовательности в первой последовательности. На вход подается файл с первой последовательностью и файл со второй последоватльостью. Результатом является список координат. В текущем примере ответ (1-3,12-14,15-17,23-25).
 
-9.  Даны две последовательности GCATAGGTC и AGCAATGGT. Найти наибольшую общую последовательность используя алгоритм [Нидлмана-Вунша](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm). В данном примере ответ GCATGGT. 
+9.  Даны две последовательности GCATAGGTC и AGCAATGGT. Найти наибольшую общую последовательность, используя алгоритм [Нидлмана-Вунша](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm). В данном примере ответ: GCATGGT. 
 
-10. Выписать все возможные гексамеры (например AAAAAA, GTTGCC, TTTCAC...). Для каждого гексамера посчитать количество полных совпадений с хромосомой Y из 1 задачи.
+10. Выписать все возможные гексамеры (например, AAAAAA, GTTGCC, TTTCAC...). Для каждого гексамера посчитать количество полных совпадений с хромосомой Y из 1 задачи.
 
 11. Найти все возможные [палиндромы](https://en.m.wikipedia.org/wiki/Palindromic_sequence) в хромосоме Y из 1 задачи. "Не гни папин ген".
 
-12. Найти все возможные длины транскриптов меньше 10000 нуклеотидов (версия генома hg38, описание [таблицы](https://genome.ucsc.edu/cgi-bin/hgTables), ссылка заархивированного [файла](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/knownGene.txt.gz)) являющимися числами [Лишрела](https://en.wikipedia.org/wiki/Lychrel_number). С помощью базы данных [DAVID](https://david.ncifcrf.gov/) сделать [GO](https://en.wikipedia.org/wiki/Gene_ontology) анализ. Какие категории находятся в топе?
+12. Найти все возможные длины транскриптов меньше 10000 нуклеотидов (версия генома hg38, описание [таблицы](https://genome.ucsc.edu/cgi-bin/hgTables), ссылка заархивированного [файла](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/knownGene.txt.gz)), являющиеся числами [Лишрела](https://en.wikipedia.org/wiki/Lychrel_number). С помощью базы данных [DAVID](https://david.ncifcrf.gov/) сделать [GO](https://en.wikipedia.org/wiki/Gene_ontology) анализ. Какие категории находятся в топе?
 	- сколько [репьюнитов](https://en.wikipedia.org/wiki/Repunit) среди всех длин транскриптов.
-	- Найти два транскрипта, длины которых явлются близкими к наименьшиму натуральному числу, которое делится на 29, имеет сумму цифр, равную 29, и оканчивающееся на 29.
+	- Найти два транскрипта, длины которых являются близкими к наименьшиму натуральному числу, которое делится на 29, имеет сумму цифр, равную 29, и оканчивающемуся на 29.
 
 14. Из хромосомы Y (см. 1 задачу) вытащить случайную последовательность длиной N. Значение N подается в качестве аргумента.
 
 15. С числом разрешено проводить две операции: "увеличить в 2 раза" и "увеличить на 1". За какое наименьшее число операций можно из числа N получить длину нуклеотидной последовательности хромосомы Y. Найти число N. 
 
-16. Прочитать про основные форматы ([fastq](https://en.wikipedia.org/wiki/FASTQ_format), [fasta](https://en.wikipedia.org/wiki/FASTA_format), [bed](https://genome.ucsc.edu/FAQ/FAQformat#format5.1), [bam](https://genome.ucsc.edu/FAQ/FAQformat#format5.1), [sam](https://genome.ucsc.edu/FAQ/FAQformat#format5.1), [bigbed](https://genome.ucsc.edu/FAQ/FAQformat#format5.1), [bigwig](https://genome.ucsc.edu/FAQ/FAQformat#format5.1), [vcf](https://genome.ucsc.edu/FAQ/FAQformat#format5.1), [wig](https://genome.ucsc.edu/FAQ/FAQformat#format5.1)). Написать программу для перевода одного формата в другой, если это возможно. Найти уже готовые программы, и использовать в качестве проверки.
+16. Прочитать про основные форматы ([fastq](https://en.wikipedia.org/wiki/FASTQ_format), [fasta](https://en.wikipedia.org/wiki/FASTA_format), [bed](https://genome.ucsc.edu/FAQ/FAQformat#format5.1), [bam](https://genome.ucsc.edu/FAQ/FAQformat#format5.1), [sam](https://genome.ucsc.edu/FAQ/FAQformat#format5.1), [bigbed](https://genome.ucsc.edu/FAQ/FAQformat#format5.1), [bigwig](https://genome.ucsc.edu/FAQ/FAQformat#format5.1), [vcf](https://genome.ucsc.edu/FAQ/FAQformat#format5.1), [wig](https://genome.ucsc.edu/FAQ/FAQformat#format5.1)). Написать программу для перевода одного формата в другой, если это возможно. Найти уже готовые программы и использовать в качестве проверки.
 
 # Задачи по алгоритмам и структурам данных (биоинформатика)
 1. Проанализировать генную сеть (граф) транскрипционных факторов [TF](https://en.wikipedia.org/wiki/Transcription_factor) [E.coli](https://en.wikipedia.org/wiki/Escherichia_coli). Вершины - TF (= ген, считаем одной сущностью); направленное ребро(дуга) - тип взаимодействия (активация, ингибирование и дуальное действие). Список TF и взаимодействий можно найти [здесь](http://regulondb.ccg.unam.mx/menu/download/datasets/files/network_tf_tf.txt) (1 столбец - TF, 2 столбец - гены, которые регулируют TF, 3 столбец - тип взаимодействия). Для упрощения 2 столбец будем считать TF.
