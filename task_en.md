@@ -1,15 +1,20 @@
+## IF expression
 Print out table of truth for expressions:
+
+```
 	x and y
 	x or y
 	x and not y
 	(x or z) and (y or z)
+```
 
-For x, y, z = 0 or 1
+For `x, y, z = 0 or 1`
 
 How infinite can loop look like?
 
 
-===================Loops and If expression==============
+## Loops and If expression
+
 1. Input some number in to your program and 
 check if number is prime.
 
@@ -25,8 +30,8 @@ which is less than 4000000.
 
 5. Find out all Pythagorean triple in defined range.
 
+## Function
 
-========================Function=========================
 1. Write fucntion without arguments, which 
 prints out hello messsga with you'r name
 
