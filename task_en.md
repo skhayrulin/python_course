@@ -1,5 +1,5 @@
 ## IF expression
-Print out table of truth for expressions:
+1. Print out table of truth for expressions:
 
 ```
 	x and y
@@ -10,7 +10,7 @@ Print out table of truth for expressions:
 
 For `x, y, z = 0 or 1`
 
-How infinite can loop look like?
+2. How infinite can loop look like?
 
 
 ## Loops and If expression
@@ -51,3 +51,16 @@ be function argument.
 5. Write function calculating 
 N-th Fibonacci number. Parametr N should 
 be function argument (recursive).
+
+6. Write function calulating N-th number of aripmetica progression, step of progression sould pass to function as argument (default value of for step should be 1)
+Напишите функцию, которая для заданного в аргументах списка, возвращает как результат перевернутый список
+7. Write function to reverese the list 
+```
+# list could be defined as 
+l = [] # empty list
+l = [1,2] #ist with two items 1, 2
+# to appenda value to list
+l.append(3)
+l.append(4)
+# after that list will be looks like [1,2,3,4]
+```
