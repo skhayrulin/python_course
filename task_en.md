@@ -76,10 +76,10 @@ some_function(12, arg_with_default_value=7) # it will run function some_function
 
 # order of arguments is important! First should be defined arguments withour default value! 
 
-
 ```
 
 7. Write function to reverese the list 
+
 ```
 # list could be defined as 
 l = [] # empty list
@@ -114,4 +114,20 @@ print(revert_list(l))
 13. Write fuction for summing of matrix
 14. Write fuction for multipliyng of matrix
 15. Write function for resolve of System of linear equations by [Gauss method](https://en.wikipedia.org/wiki/Gaussian_elimination).
+
+## Map
+
+Map - is key, value storage.
+
+```
+# in python map defines like this
+my_map = {}
+# you can put value into map as 
+
+my_map['some_key'] = 'some value'
+
+# key could be any hashable object
+
+```
+1. Genrate map for storing phonebook, by name you should findd phone number. Write function for chacking if number for particular name is exist in phonebook.
 
