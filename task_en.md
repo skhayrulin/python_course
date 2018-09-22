@@ -60,6 +60,14 @@ step of progression sould pass to function as argument (default value of for ste
 def some_function(arg_without_default_value, arg_with_default_value=1):
    # do some work
    # ...
+
+# you can use it than
+some_function(12, 13) # -> it will run function some_function with arg_without_default_value=12, arg_with_default_value=13
+
+# or
+some_function(12) # -> it will run function some_function with arg_without_default_value=12, arg_with_default_value=1
+
+# order of arguments is important! First should be defined arguments withour default value! 
 ```
 
 7. Write function to reverese the list 
