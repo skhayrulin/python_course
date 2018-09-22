@@ -52,8 +52,9 @@ be function argument.
 N-th Fibonacci number. Parametr N should 
 be function argument (recursive).
 
-6. Write function calulating N-th number of aripmetica progression, step of progression sould pass to function as argument (default value of for step should be 1)
-Напишите функцию, которая для заданного в аргументах списка, возвращает как результат перевернутый список
+6. Write function calulating N-th number of aripmetica progression, 
+step of progression sould pass to function as argument (default value of for step should be 1)
+
 7. Write function to reverese the list 
 ```
 # list could be defined as 
