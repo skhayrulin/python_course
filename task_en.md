@@ -56,18 +56,27 @@ be function argument (recursive).
 step of progression sould pass to function as argument (default value of for step should be 1)
 
 ```
-# to define default argument value
+# to define default argument value so called named argumnets
 def some_function(arg_without_default_value, arg_with_default_value=1):
    # do some work
    # ...
 
 # you can use it than
-some_function(12, 13) # -> it will run function some_function with arg_without_default_value=12, arg_with_default_value=13
+some_function(12, 13) # it will run function some_function 
+		      # with arg_without_default_value=12, arg_with_default_value=13
 
 # or
-some_function(12) # -> it will run function some_function with arg_without_default_value=12, arg_with_default_value=1
+some_function(12) # it will run function some_function
+		  # with arg_without_default_value=12, arg_with_default_value=1
+
+# or
+some_function(12, arg_with_default_value=7) # it will run function some_function
+		  # with arg_without_default_value=12, arg_with_default_value=7
+
 
 # order of arguments is important! First should be defined arguments withour default value! 
+
+
 ```
 
 7. Write function to reverese the list 
