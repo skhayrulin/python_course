@@ -55,6 +55,13 @@ be function argument (recursive).
 6. Write function calulating N-th number of aripmetica progression, 
 step of progression sould pass to function as argument (default value of for step should be 1)
 
+```
+# to define default argument value
+def some_function(arg_without_default_value, arg_with_default_value=1):
+   # do some work
+   # ...
+```
+
 7. Write function to reverese the list 
 ```
 # list could be defined as 
