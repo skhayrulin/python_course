@@ -63,4 +63,11 @@ l = [1,2] #ist with two items 1, 2
 l.append(3)
 l.append(4)
 # after that list will be looks like [1,2,3,4]
+
+def revert_list(l):
+   # your code which is reverting list l
+   # and will return l 
+
+print(revert_list(l))
+# will print 4,3,2,1
 ```
