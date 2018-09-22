@@ -52,7 +52,7 @@ be function argument.
 N-th Fibonacci number. Parametr N should 
 be function argument (recursive).
 
-6. Write function calulating N-th number of aripmetica progression, 
+6. Write function calulating N-th number of arithmetic progression, 
 step of progression sould pass to function as argument (default value of for step should be 1)
 
 ```
