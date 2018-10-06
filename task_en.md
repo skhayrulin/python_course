@@ -134,7 +134,7 @@ s.reverse() | reverses the items of s in place	(4)
 
 ## Map
 
-Map - is key, value storage.
+Map - is key, value storage. To create map you need init your var with {}
 
 ```
 # in python map defines like this
@@ -146,5 +146,30 @@ my_map['some_key'] = 'some value'
 # key could be any hashable object
 
 ```
-1. Genrate map for storing phonebook, by name you should findd phone number. Write function for checking if number for particular name is exist in phonebook.
+### Task
+
+1. Genrate map for storing phonebook, by name you should find phone number.
+2. Write function for checking if number for particular name is exist in phonebook.
+3. Write script which read input from user and show phne number for particular person if it exists
+4. Write function for concatenate of two dicts `concatenate(dict1, dict2)` and returning concatenated dict.
+
+## Set
+
+Set is object which has number of unique elements. To create set you need write `set()`
+```
+# Create set
+s = set()
+>>> {}
+
+# crete set from list
+s = set([1,2,3,4,5])
+>>> {1,2,3,4,5}
+
+```
+### Task
+
+1. Create list with repeated ellemnets and than create set from it.
+2. Define operation under sets (union, intersection, difference of two sets) - **don't use standart**, do it yourself. 
+3. Find simplest way to delete all repasted chars from thsi string - 'rewlkdfsklgjdflkjglkdsfjgkldfsjgliiiiiiiiiierwtsj;kldfjg;lksdfjgl;ksdjfl;gj;lsdfjg;lk'    
+
 
