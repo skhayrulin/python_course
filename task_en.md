@@ -168,7 +168,7 @@ s = set([1,2,3,4,5])
 ```
 ### Task
 
-1. Create list with repeated ellemnets and than create set from it.
+1. Create list with repeated elements and than create set from it.
 2. Define operation under sets (union, intersection, difference of two sets) - **don't use standart**, do it yourself. 
 3. Find simplest way to delete all repasted chars from thsi string - 'rewlkdfsklgjdflkjglkdsfjgkldfsjgliiiiiiiiiierwtsj;kldfjg;lksdfjgl;ksdjfl;gj;lsdfjg;lk'    
 
