@@ -172,4 +172,94 @@ s = set([1,2,3,4,5])
 2. Define operation under sets (union, intersection, difference of two sets) - **don't use standart**, do it yourself. 
 3. Find simplest way to delete all repasted chars from thsi string - 'rewlkdfsklgjdflkjglkdsfjgkldfsjgliiiiiiiiiierwtsj;kldfjg;lksdfjgl;ksdjfl;gj;lsdfjg;lk'    
 
+## Work with file
+To open file for read you can use function [`open`](https://docs.python.org/3.6/library/functions.html#open) e.g.
 
+```
+# first argument indicates path to file include name of file, second mode of of opening file usualy it's
+# equal to r - for reading, w - for writing, a - for appending to the end of the file. For more info see doc.
+# you can use simultaneously several mode e.g. 'rw' - means that file will be open for read and write
+my_file = open('path to file', 'r')
+
+# To read all file you can use functuion read, it will return string wit contentt of file
+file_content = my_file.read()
+
+# you can read file line by line just using for loop
+for line in my_file:
+	# do smth
+	...
+# To write smth to file you need open file in write mode
+my_file = open('path to file', 'w')
+
+str_to_put = "To be, or not to be, that is the question…"
+
+# this function will write to end of file 
+my_file.write(str_to_put)
+
+# DON'T forget to close file after work is finished
+
+my_file.close()
+
+
+# NOTE if you're open file file in w - write mode all content will be erased, TO add into file new you need use a - append mode
+```
+
+#### Task
+
+1. Write script which is doing several math operation: sum, div, mult, subtraction with imputed number
+2. When script starting it should ask user to imput name, than operation which he want to compute, and two arguments.
+3. Write logger for your program. Logger should write all operation of your program into a file e.g.
+```
+def logger(operation_name, lef_arg, right_arg):
+	# open file
+	# make string, string should starts with user name
+	# put to file
+	# close file
+	...
+
+def mult(a, b):
+	logger('mult', a, b)
+	return a * b
+```
+
+
+
+# Final Task
+Write program calculator. Main aim of program is to process arithmetical expression and show result e.g.:
+```
+1 + 2
+>>> 3
+```   
+It also should be possible define variables e.g.:
+```
+x=2*(4+2)
+x
+>>> 12
+```
+And use them after definition e.g.:
+```
+y = 12
+x = 10
+z = x * y
+z
+>>> 120
+```
+There are should be ability to create function. function definition: first reserved word `function` than name of function and in brackets all list of all needed arguments after `:` as delimiter of function declaration and definition e.g:
+```
+function pow2(x): x*x
+```
+After definition if function it will be available fo user
+```
+pow2(3)
+>>> 9
+```
+It should be possible to see all available variables and function in context of program.
+```
+print
+>>> x - variable
+    y - variable
+    z - variable
+
+pow2 - function
+```
+If user write `quit`. Calculator should close. Don't forget to process all possible exceptions e.g. division by zero. Or using not defined vars.
