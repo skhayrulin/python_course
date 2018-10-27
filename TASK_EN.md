@@ -222,6 +222,9 @@ def mult(a, b):
 	return a * b
 ```
 
+### OOP tasks
+1. Create class for several different animals type. Yuor calass should contain several atributes and several public methods.  What common among your classes could you highlight?
+2. Highlight common part of your classes into one absttract interface.
 
 
 # Final Task
