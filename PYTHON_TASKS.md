@@ -17,6 +17,8 @@
   - [Кортежи](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Кортежи)
 - [Строки](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Строки)
 - [Словари](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Словари)
+- [Генераторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Генераторы)
+- [Работа с файлами](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Работа-с-файлами)
 - [Задачи по биоинформатике](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Задачи-по-биоинформатике)
 - [ООП](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#ООП)
   - [Классы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Классы)
@@ -495,6 +497,18 @@ s.reverse() | reverses the items of s in place	(4)
 4. Как можно просто в этой строке 'rewlkdfsklgjdflkjglkdsfjgkldfsjgliiiiiiiiiierwtsj;kldfjg;lksdfjgl;ksdjfl;gj;lsdfjg;lk' -  удалить все повторяющиеся эллементы
 5. Предположим вы вводите строку, используя стандартную функцию input() посчитайте и вывидете какое колличество разных символов в этой строке
 6. напишите функцию `concatenate(dict1, dict2)`, которая объединяет два словаря и вовращает результат, выведете результат
+7. Реализуйте программу заполяющую телефонный справочникю. При этом заполнение справочника должно осуществляться из строки ввода, учтите, что у человека может быть несколько телефонов. Добавьте специализированную комманду, с помощью которой можно выводить справочник на экран.
+
+# Генераторы
+Спеуиализированные функции Python способные создавать итерируеммуй объект.
+
+## Задачи
+1. Создайте генератор числовых значений от 0 до 100. Передеберите все значения этого генератора в цикле
+2. Создайте генератор квадратов элементов предыдущего списка. Передеберите все значения этого генератора в цикле
+3. Создайте генератор, состоящий из четных элементов предыдущего списка. Передеберите все значения этого генератора в цикле
+
+# Работы с файлами
+...
 
 # Задачи по биоинформатике
 ## Задачи переехали [сюда](https://github.com/skhayrulin/python_course/blob/master/BIOINFORMATICS_TASKS.md)
