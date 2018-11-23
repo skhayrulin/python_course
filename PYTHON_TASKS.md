@@ -15,6 +15,7 @@
 - [Списки и работа с ними (срезки генераторы)](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Списки-и-работа-с-ними-срезки-генераторы)
   - [Срезки (Slice)](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Срезки-slice)
   - [Кортежи](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Кортежи)
+  - [Списковые включения](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Списковые-включения)
 - [Строки](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Строки)
 - [Словари](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Словари)
 - [Генераторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Генераторы)
@@ -395,7 +396,7 @@ s.reverse() | reverses the items of s in place	(4)
 Последний пример переворачивает список
    
     
-## Генераторы
+## Списковые включения
 
 Можно строить список поэлементно.
 
