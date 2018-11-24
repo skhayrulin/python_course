@@ -23,7 +23,7 @@
 - [Задачи по биоинформатике](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Задачи-по-биоинформатике)
 - [ООП](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#ООП)
   - [Классы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Классы)
-  - [Наследвование](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Наследование)
+  - [Наследование](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Наследование)
   - [Инкапсуляция](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Инкапсуляция)
   - [Полиморфизм](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Полиморфизм)
 - [Исключения](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Исключения)
