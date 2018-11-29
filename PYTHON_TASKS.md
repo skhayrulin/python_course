@@ -539,10 +539,23 @@ my_file.close()
 # NOTE if you're open file file in w - write mode all content will be erased, TO add into file new you need use a - append mode
 ```
 ## Задачи
-1. 
-2. 
-3. 
+1. Напишите скрипт, в котором есть несколько математических операций, определенных в отдельных функциях: sum, div, mult, subtraction with imputed number
+2. При запуске вашего скрипта он должен спрашивать ваше имя, затем в бесконечном цикле вы должны подавать на ввод вашему скрипту сначала имя функнции, которую выхатите вызвать, затем аргументы функции. Например
 
+```
+start program
+input your name> Vasya
+what operattion i'd like to run> add
+input arguments> 1, 3
+result of add is > 4
+...
+```
+
+3. Реализуйте функцию, которая будет логировать все вызовы ваших встроенных функций в файл. Рядом с файлом вашего скрипта должен появиться файл log.log, в котором будут записи следующего вида:
+
+```
+user - [Vasya] operation - [add] , arguments - [1,3], result - [4]
+```
 
 # Задачи по биоинформатике
 ## Задачи переехали [сюда](https://github.com/skhayrulin/python_course/blob/master/BIOINFORMATICS_TASKS.md)
