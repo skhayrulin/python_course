@@ -498,7 +498,7 @@ s.reverse() | reverses the items of s in place	(4)
 4. Как можно просто в этой строке 'rewlkdfsklgjdflkjglkdsfjgkldfsjgliiiiiiiiiierwtsj;kldfjg;lksdfjgl;ksdjfl;gj;lsdfjg;lk' -  удалить все повторяющиеся эллементы
 5. Предположим вы вводите строку, используя стандартную функцию input() посчитайте и вывидете какое колличество разных символов в этой строке
 6. напишите функцию `concatenate(dict1, dict2)`, которая объединяет два словаря и вовращает результат, выведете результат
-7. Реализуйте программу заполяющую телефонный справочникю. При этом заполнение справочника должно осуществляться из строки ввода, учтите, что у человека может быть несколько телефонов. Добавьте специализированную комманду, с помощью которой можно выводить справочник на экран.
+7. Реализуйте программу заполяющую телефонный справочник. При этом заполнение справочника должно осуществляться из строки ввода, учтите, что у человека может быть несколько телефонов. Добавьте специализированную комманду, с помощью которой можно выводить справочник на экран.
 
 # Генераторы
 Специализированные функции Python способные создавать итерируемый объект. При этом для хранения последовательности не нужно резервировать 
@@ -509,8 +509,40 @@ s.reverse() | reverses the items of s in place	(4)
 2. Создайте генератор квадратов элементов предыдущего списка. Передеберите все значения этого генератора в цикле
 3. Создайте генератор, состоящий из четных элементов предыдущего списка. Передеберите все значения этого генератора в цикле
 
-# Работы с файлами
-...
+# Работы с файлам
+```
+# first argument indicates path to file include name of file, second mode of of opening file usualy it's
+# equal to r - for reading, w - for writing, a - for appending to the end of the file. For more info see doc.
+# you can use simultaneously several mode e.g. 'rw' - means that file will be open for read and write
+my_file = open('path to file', 'r')
+
+# To read all file you can use functuion read, it will return string wit contentt of file
+file_content = my_file.read()
+
+# you can read file line by line just using for loop
+for line in my_file:
+	# do smth
+	...
+# To write smth to file you need open file in write mode
+my_file = open('path to file', 'w')
+
+str_to_put = "To be, or not to be, that is the question…"
+
+# this function will write to end of file 
+my_file.write(str_to_put)
+
+# DON'T forget to close file after work is finished
+
+my_file.close()
+
+
+# NOTE if you're open file file in w - write mode all content will be erased, TO add into file new you need use a - append mode
+```
+## Задачи
+1. 
+2. 
+3. 
+
 
 # Задачи по биоинформатике
 ## Задачи переехали [сюда](https://github.com/skhayrulin/python_course/blob/master/BIOINFORMATICS_TASKS.md)
