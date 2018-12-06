@@ -19,7 +19,7 @@
 - [Строки](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Строки)
 - [Словари](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Словари)
 - [Генераторы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Генераторы)
-- [Работа с файлами](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Работа-с-файлами)
+- [Работа с файлами](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC)
 - [Задачи по биоинформатике](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Задачи-по-биоинформатике)
 - [ООП](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#ООП)
   - [Классы](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md#Классы)
