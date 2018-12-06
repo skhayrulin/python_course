@@ -509,7 +509,7 @@ s.reverse() | reverses the items of s in place	(4)
 2. Создайте генератор квадратов элементов предыдущего списка. Передеберите все значения этого генератора в цикле
 3. Создайте генератор, состоящий из четных элементов предыдущего списка. Передеберите все значения этого генератора в цикле
 
-# Работы с файлам
+# Работа с файлам
 ```
 # first argument indicates path to file include name of file, second mode of of opening file usualy it's
 # equal to r - for reading, w - for writing, a - for appending to the end of the file. For more info see doc.
