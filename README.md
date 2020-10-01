@@ -17,7 +17,7 @@
 
 # Список ресурсов и литературы
 
-* Mark Pilgrim. Dive into Python - http://www.diveintopython.net/
+* Mark Pilgrim. Dive into Python - https://diveintopython3.net/
 * Michal Jaworski, Tarek Ziade. Expert Python Programming //  Packt Publishing - ebooks Account; 2nd Revised edition edition (May 20, 2016).
 * Марк Лутц. Изучаем Python, 4-е издание // Символ-Плюс 2011.
 * Mitchell L. Model. Bioinformatics Programming Using Python // O’Reilly 2010.
