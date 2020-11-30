@@ -9,11 +9,10 @@
 
 Существует достаточно большое колличество IDE для разработки приложений на python.
 
-* [PyCharm](https://www.jetbrains.com/pycharm/) - обладает полным инструментарием для разработки, можно скачать comunity edition версию, которая является бесплатной для некомерческой разработки
+* [PyCharm](https://www.jetbrains.com/pycharm/) - обладает полным инструментарием для разработки, можно скачать comunity edition версию, которая является бесплатной для некомерческой разработки. Для студентов и преподавателей IDE в версие interprise доступна по специальной подписке.
 * [Spider](https://github.com/spyder-ide/spyder) - opensource IDE есть возможности отладки кода 
 * [PyDev](https://marketplace.eclipse.org/content/pydev-python-ide-eclipse) - плагин для разработки на python в среде Eclipse
-
-Лучшей рекомендацией будет установить пакет [Anaconda](https://www.continuum.io/downloads), который включает в себя большое колличество наиболее популярных библиотек, а также IDE Spider, интерактивную оболочку для разработки на python jupyter.
+* [VsCode](https://code.visualstudio.com/) - для работы с Python нужно установить [плагин](https://code.visualstudio.com/docs/python/python-tutorial), IDE поддерживает отладку кода, запуск приложений... Бесплатная, гибко настраиваемая.
 
 # Список ресурсов и литературы
 
