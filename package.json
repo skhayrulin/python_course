@@ -1,0 +1,23 @@
+{
+    "name": "slidestemplate",
+    "version": "1.0.0",
+    "description": "Presentation: Slides Template",
+    "main": "index.js",
+    "scripts": {
+      "presentation": "reveal-md slides.md",
+      "generate": "reveal-md slides.md --static docs"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:skhayrulin/python_course.git"
+    },
+    "author": "Sergey Khayrulin",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/skhayrulin/python_course/issues"
+    },
+    "homepage": "https://github.com/skhayrulin/python_course",
+    "devDependencies": {
+      "reveal-md": "^0.4.2"
+    }
+  }
