@@ -4,8 +4,8 @@
     "description": "Presentation: Slides Template",
     "main": "index.js",
     "scripts": {
-      "presentation": "reveal-md slides.md",
-      "generate": "reveal-md slides.md --static docs"
+      "presentation": "reveal-md lecture/lec1.md",
+      "generate": "reveal-md lecture/lec1.md --static docs"
     },
     "repository": {
       "type": "git",
