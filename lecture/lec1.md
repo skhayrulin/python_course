@@ -22,7 +22,8 @@ revealOptions:
     line-height: 0.9em;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    text-shadow: none; 
+    text-shadow: none;
+    font-size: 20px;
   }
   .reveal p {
     text-align: left;
