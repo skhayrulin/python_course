@@ -7,8 +7,20 @@ revealOptions:
     transition: 'fade'
     slideNumber: true
     center: false
-    disableLayout: true
+    progress: true
 ---
+
+<style type="text/css">
+  .reveal p {
+    text-align: left;
+  }
+  .reveal ul {
+    display: block;
+  }
+  .reveal ol {
+    display: block;
+  }
+</style>
 
 ## Лекция 1
 
