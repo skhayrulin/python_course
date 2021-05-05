@@ -6,6 +6,7 @@ theme: solarized
 revealOptions:
     transition: 'fade'
     slideNumber: true
+    text-align: 'left'
 ---
 
 ## Лекция 1
