@@ -11,6 +11,19 @@ revealOptions:
 ---
 
 <style type="text/css">
+    .reveal h1,
+    .reveal h2,
+    .reveal h3,
+    .reveal h4,
+    .reveal h5,
+    .reveal h6 {
+    margin: 0 0 20px 0;
+    color: #eee8d5;
+    line-height: 0.9em;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: none; 
+  }
   .reveal p {
     text-align: left;
   }
@@ -42,11 +55,14 @@ revealOptions:
 * Марк Лутц. Изучаем Python, 4-е издание // Символ-Плюс 2011.
 * ...
 
+<!--v-->
 ### Стандарт/Документация
 
 * PEP-8 - https://www.python.org/dev/peps/pep-0008/
 * https://www.python.org/
 * https://github.com/python/cpython
+
+<!--v-->
 
 ### Продвинутый уровень
 
