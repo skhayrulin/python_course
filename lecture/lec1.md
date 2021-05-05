@@ -19,10 +19,9 @@ revealOptions:
 <!--s-->
 
 
-<!--s-->
-
 # Программирование/Языки программирования
 
+<!--s-->
 # References
 
-* Mark Pilgrim. Dive into Python http://www.diveintopython.net/reveal-md)
+* Mark Pilgrim. Dive into Python http://www.diveintopython.net/reveal-md
