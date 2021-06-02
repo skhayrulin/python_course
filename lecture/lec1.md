@@ -11,7 +11,7 @@ revealOptions:
 ---
 
 <style type="text/css">
-    .reveal h1,
+    /* .reveal h1,
     .reveal h2,
     .reveal h3,
     .reveal h4,
@@ -24,7 +24,7 @@ revealOptions:
     text-transform: uppercase;
     text-shadow: none;
     font-size: 20px;
-  }
+  } */
   .reveal p {
     text-align: left;
   }
