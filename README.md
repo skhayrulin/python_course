@@ -2,7 +2,7 @@
 
 Курс по основам языка Python для магистратуры кафедры бионформатики НГУ. 
 * Курс лекций предтавлен в разделе [lecture](/lecture)
-* В разделе [misc](https://github.com/skhayrulin/python_course/blob/master/PYTHON_TASKS.md) можно найти старые задачи и материалы
+* В разделе [misc](https://github.com/skhayrulin/python_course/blob/master/misc/PYTHON_TASKS.md) можно найти старые задачи и материалы
 
 # Средства отладки и разработки
 
