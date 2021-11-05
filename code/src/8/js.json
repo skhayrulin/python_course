@@ -1,0 +1,1 @@
+{"propInt": 1, "propFloat": 3.14, "propBool": true, "propString": "Hello JSON", "propDict": {"key1": 2}, "propList": [1, 2, 3]}
