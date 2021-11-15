@@ -24,9 +24,9 @@ class Drawer:
             self.__buffer.append(row)
 
     def put_pixel(self, x, y, c):
-        self.__buffer[x][y + 0] = c.r
-        self.__buffer[x][y + 1] = c.g
-        self.__buffer[x][y + 2] = c.b
+        self.__buffer[x][y * 3 + 0] = c.r
+        self.__buffer[x][y * 3 + 1] = c.g
+        self.__buffer[x][y * 3 + 2] = c.b
 
     def save(self):
         with open('gradient.png', 'wb') as f:
