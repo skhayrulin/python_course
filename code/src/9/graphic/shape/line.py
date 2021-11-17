@@ -7,10 +7,10 @@ class Line(Shape):
         Shape.__init__(self, drawer)
         self.start = start
         self.end = end
+        self.line_counter += 1
     
     @staticmethod
     def stat():
-        Line.line_counter += 1
         print(f"{Line.line_counter} was created")
 
     def draw(self):
