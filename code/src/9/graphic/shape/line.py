@@ -3,11 +3,12 @@ from ..drawer import Color
 
 class Line(Shape):
     line_counter = 0
-    def __init__(self, start, end, drawer):
+    def __init__(self, start, end, drawer, color = None):
         Shape.__init__(self, drawer)
         self.start = start
         self.end = end
         self.line_counter += 1
+        self.color = color or Color(255,255,255)
     
     @staticmethod
     def stat():
@@ -24,9 +25,8 @@ class Line(Shape):
             dy = -dy
         D = 2*dy - dx
         y = self.start.y
-        c = Color(255,255,255)
         for x in range(self.start.x, self.end.x + 1):
-            self.drawer.put_pixel(x, y, c)
+            self.drawer.put_pixel(x, y, self.color)
             if D > 0:
                 y = y + yi
                 D = D + (2 * (dy - dx))
