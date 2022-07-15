@@ -38,13 +38,13 @@ revealOptions:
 
 ## Лекция 1
 
-### Язык программрования Python
+#### Язык программрования Python
 
 <!--s-->
 
-### Хайрулин Сергей Сергеевич
+#### Хайрулин Сергей Сергеевич
 
-### email: s.khayrulin@gmail.com
+#### email: s.khayrulin@gmail.com
 
 <!--s-->
 
