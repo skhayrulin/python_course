@@ -4,6 +4,7 @@ from graphic.drawer import Drawer, Color
 from graphic.shape import Point2D, Line
 
 def main():
+    s = Scene()
     drawer = Drawer(256, 256)
     p_start = Point2D(100, 100, drawer=drawer)
     # p_end = Point2D(200, 200, drawer=drawer)

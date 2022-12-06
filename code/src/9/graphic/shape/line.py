@@ -3,14 +3,15 @@ from ..drawer import Color
 
 class Line(Shape):
     line_counter = 0
-    def __init__(self, start, end, drawer):
+    def __init__(self, start, end, drawer, color = None):
         Shape.__init__(self, drawer)
         self.start = start
         self.end = end
+        self.line_counter += 1
+        self.color = color or Color(255,255,255)
     
     @staticmethod
     def stat():
-        Line.line_counter += 1
         print(f"{Line.line_counter} was created")
 
     def draw(self):
