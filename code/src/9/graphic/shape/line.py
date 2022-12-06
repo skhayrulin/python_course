@@ -18,18 +18,37 @@ class Line(Shape):
         """
         dx = self.end.x - self.start.x
         dy = self.end.y - self.start.y
-        yi = 1
+
+        sign_x = 1 if dx>0 else -1 if dx<0 else 0
+        sign_y = 1 if dy>0 else -1 if dy<0 else 0
+
+        if dx < 0:
+            dx = -dx
         if dy < 0:
-            yi = -1
             dy = -dy
-        D = 2*dy - dx
-        y = self.start.y
+
+        if dx > dy:
+            pdx, pdy = sign_x, 0
+            es, el = dy, dx
+        else:
+            pdx, pdy = 0, sign_y
+            es, el = dx, dy
+
+        x, y = self.start.x, self.start.y
+
+        error, t = el/2, 0
+
         c = Color(255,255,255)
-        for x in range(self.start.x, self.end.x + 1):
-            self.drawer.put_pixel(x, y, c)
-            if D > 0:
-                y = y + yi
-                D = D + (2 * (dy - dx))
+        self.drawer.put_pixel(x, y, c)
+        while t < el:
+            error -= es
+            if error < 0:
+                error += el
+                x += sign_x
+                y += sign_y
             else:
-                D = D + 2 * dy
+                x += pdx
+                y += pdy
+            t += 1
+            self.drawer.put_pixel(x, y, c)
         
