@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Slides Template</title>
+        <link rel="stylesheet" href="./css/reveal.css">
+        <link rel="stylesheet" href="./css/theme/solarized.css" id="theme">
+        <link rel="stylesheet" href="./css/highlight/zenburn.css">
+        <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print">
+
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section  data-markdown><script type="text/template">
+
+<style type="text/css">
+    /* .reveal h1,
+    .reveal h2,
+    .reveal h3,
+    .reveal h4,
+    .reveal h5,
+    .reveal h6 {
+    margin: 0 0 20px 0;
+    color: #eee8d5;
+    line-height: 0.9em;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-size: 20px;
+  } */
+  .reveal p {
+    text-align: left;
+  }
+  .reveal ul {
+    display: block;
+  }
+  .reveal ol {
+    display: block;
+  }
+</style>
+
+## Лекция 1
+
+#### Язык программрования Python
+
+</script></section><section  data-markdown><script type="text/template">
+
+#### Хайрулин Сергей Сергеевич
+
+#### email: s.khayrulin@gmail.com
+
+</script></section><section ><section data-markdown><script type="text/template">
+
+## References
+
+### Начальный уровень
+
+* Mark Pilgrim. Dive into Python http://www.diveintopython.net/
+* Марк Лутц. Изучаем Python, 4-е издание // Символ-Плюс 2011.
+* ...
+
+</script></section><section data-markdown><script type="text/template">
+### Стандарт/Документация
+
+* PEP-8 - https://www.python.org/dev/peps/pep-0008/
+* https://www.python.org/
+* https://github.com/python/cpython
+
+</script></section><section data-markdown><script type="text/template">
+
+### Продвинутый уровень
+
+* Лучано Рамальо: Python. К вершинам мастерства
+* Mitchell L. Model. Bioinformatics Programming Using Python // O’Reilly 2010.
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+## Программирование/Языки программирования
+
+Процесс разработки программ, для вычислительных устройств с помощью языков программирования.
+
+</script></section><section data-markdown><script type="text/template">
+
+Язык программирования - формальный язык, предназначенный для записи компьютерных программ. Язык программирования определяет набор лексических, синтаксических и семантических правил, определяющих внешний вид программы и действия, которые выполнит исполнитель (обычно — ЭВМ) под ее управлением (wiki).
+
+</script></section></section><section  data-markdown><script type="text/template">
+
+## Классификация ЯП
+
+С увеличением вовлеченности ЭВМ в промышленность и экономику, появляется необходимость в специалистах и инструментах, с помощью которых можно массово создавать прикладные программы. Появляется очевидная необходимость в разработки языков программирования. Эволюционно языки можно подразделять на два типа
+
+* Языки низкого уровня -> низкоуровневое взаимодействие с конкретной платформой  и устройствами ЭВМ - к таким языкам можно отнести машинный код, assembler
+</script></section></div>
+        </div>
+
+        <script src="./lib/js/head.min.js"></script>
+        <script src="./js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: './plugin/zoom-js/zoom.js', async: true },
+              { src: './plugin/notes/notes.js', async: true },
+              { src: './plugin/math/math.js', async: true }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default', // none/fade/slide/convex/concave/zoom
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {"transition":"fade","slideNumber":true,"center":false,"progress":true};
+            options = extend(defaultOptions, options, queryOptions);
+        </script>
+
+
+        <script>
+            Reveal.initialize(options);
+        </script>
+    </body>
+</html>
